@@ -1,5 +1,7 @@
 .app-icons {
-    display: flex;
+    display: inline-block;
+    overflow: hidden;
+    margin: auto;
     align-items: center;
 }
 
@@ -286,7 +288,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background: #565992 url('../images/home-bg.jpeg') no-repeat bottom right;
+    background: #565992 url('../images/home-bg.jpeg') no-repeat center bottom;
     background-size: cover;
     color: #ffffff;
     display: -webkit-box;
@@ -467,6 +469,7 @@ a:hover, a:active, a:focus {
 footer {
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
 }
 
 footer span {
@@ -476,6 +479,11 @@ footer span {
 
 footer p {
     padding-top: 16px;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: stretch;
 }
 
 @-webkit-keyframes slit {
@@ -523,7 +531,7 @@ footer p {
     position: relative;
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .social-icon li {
@@ -591,6 +599,14 @@ footer p {
     .container {
         width: 100%;
     }
+
+    .android {
+        width: 184px;
+    }
+
+    .apple {
+        width: 148px;
+    }
 }
 
 @media (max-width: 980px) {
@@ -618,7 +634,6 @@ footer p {
     #about .about-thumb {
         margin-top: 62px;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -638,6 +653,16 @@ footer p {
         padding-bottom: 60px;
     }
 
+    .social-icon {
+        text-align: center;
+    }
+
+    .footer-copyright {
+        display: inline-block;
+        overflow: hidden;
+        margin: auto;
+        align-items: center;
+    }
 }
 
 @media (max-width: 767px) {
