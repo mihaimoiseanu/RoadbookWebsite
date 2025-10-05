@@ -62,6 +62,20 @@ $(document).ready(function () {
         });
     });
 
+    // Initialize PistaPilot Carousel (add this to your custom.js or inline)
+    $(document).ready(function () {
+        $("#pistapilot-carousel").owlCarousel({
+            items: 3,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [979, 2],
+            itemsTablet: [768, 1],
+            itemsMobile: [650, 1],
+            pagination: true,
+            navigation: false,
+            autoPlay: 5000
+        });
+    });
+
 
     /*-------------------------------------------------------------------------------
       Back top Top

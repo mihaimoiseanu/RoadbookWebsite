@@ -150,16 +150,51 @@ a:hover, a:active, a:focus {
 
 #about,
 #screenshot,
-#divider,
+#development,
 #pricing,
+#collaboration,
 #newsletter {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-#divider,
+#development,
 #pricing {
     text-align: center;
+}
+
+#collaboration p {
+    color: #FFF;
+    font-size: 22px;
+    line-height: 36px;
+    font-family: "Roboto", serif;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+.collaboration-logo-inline {
+    height: auto;
+    width: 200px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#pistapilot-carousel {
+    margin-top: 40px;
+}
+
+#pistapilot-carousel .item {
+    padding: 0 15px;
+}
+
+#pistapilot-carousel .item img {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
 }
 
 
@@ -341,14 +376,14 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   Divider section              
+   development section
 -----------------------------------------*/
 
-#divider {
+#development {
     background-color: #8E4D2F;
 }
 
-#divider p {
+#development p {
     color: #FFF;
     font-size: 22px;
     line-height: 36px;
@@ -646,8 +681,8 @@ footer p {
         padding-bottom: 32px;
     }
 
-    #about, #divider,
-    #screenshot,
+    #about, #development,
+    #screenshot, #collaboration
     #pricing, #newsletter {
         padding-top: 60px;
         padding-bottom: 60px;
